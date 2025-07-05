@@ -65,4 +65,15 @@ set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_location_assignment PIN_G1 -to clk
 set_location_assignment PIN_W17 -to led6
 set_location_assignment PIN_Y17 -to led5
+set_location_assignment PIN_AB18 -to disp_7seg_dig[0]
+set_location_assignment PIN_U19 -to disp_7seg_dig[1]
+set_location_assignment PIN_R18 -to disp_7seg_dig[2]
+set_location_assignment PIN_AA19 -to disp_7seg_segments[0]
+set_location_assignment PIN_R19 -to disp_7seg_segments[1]
+set_location_assignment PIN_U20 -to disp_7seg_segments[2]
+set_location_assignment PIN_AB19 -to disp_7seg_segments[3]
+set_location_assignment PIN_AA18 -to disp_7seg_segments[4]
+set_location_assignment PIN_W20 -to disp_7seg_segments[5]
+set_location_assignment PIN_R20 -to disp_7seg_segments[6]
+set_location_assignment PIN_W19 -to disp_7seg_segments[7]
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
