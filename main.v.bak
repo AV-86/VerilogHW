@@ -1,0 +1,15 @@
+module main(
+    input wire clk,
+	output reg led,
+);
+    reg [26:0] cntr;
+    
+    always @(posedge clk) begin
+        reg <= reg + 1;
+        if(reg == 50000000) begin
+            reg <= 0;
+            led <= ~led;
+        end
+    end
+
+endmodule
