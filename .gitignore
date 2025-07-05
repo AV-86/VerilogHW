@@ -109,7 +109,7 @@ settings.txt
 *.summary.rpt
 *.sdc.summary
 *.sdc.rpt
-*.v
+# *.v
 *.vhd
 *.sv
 *.svh
@@ -120,6 +120,6 @@ settings.txt
 *.qsys_edit
 *.qgs_edit
 *.qpf
-*.qsf
+# *.qsf
 *.qws
 *.qip
