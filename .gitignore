@@ -123,3 +123,5 @@ settings.txt
 # *.qsf
 *.qws
 *.qip
+*.done
+*jditmp
